@@ -1,0 +1,42 @@
+library ieee;
+use ieee.numeric_std.all;
+use ieee.std_logic_1164.all;
+use ieee.math_real.all;
+
+
+
+library work;
+use work.essential_components.all;
+use work.pipeline_registers.all;
+
+
+entity Instruction_decoder is 
+port (instruction_IF_ID : in std_logic_vector(15 downto 0);--incoming inst
+sign_extend  : out  std_logic;--0 for 6 and 1 for 9
+condition  : out std_logic;--00,01,10,11
+source1 : out std_logic;
+source2 : out std_logic;
+destination : out std_logic;
+whether_lw_or_sw  : out std_logic;--0 for lw and 1 for sw
+alu_operation : out std_logic_vector(1 downto 0);---0 for add and 1 for nand 
+flags   : out std_logic_vector(1 downto 0);--00(),01(c),10(z),11(cz)
+shiftleftB_or_not  : out std_logic;--1 for shift regB left by 1 
+write_on_reg_or_mem : out std_logic-- 0 for reg and 1 for mem
+ 
+
+
+);
+end Instruction_decoder;
+
+
+architecture Ind of Instruction_decoder is
+begin
+
+
+
+
+
+
+
+case
+end Ind;  

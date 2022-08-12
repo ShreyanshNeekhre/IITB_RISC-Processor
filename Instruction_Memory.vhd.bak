@@ -1,0 +1,26 @@
+library ieee;
+use ieee.numeric.std.all;
+use ieee.std_logic_1164.all;
+use ieee.math_real.all;
+
+entity Instruction_Memory is
+  port(  read_ena : in std_logic;
+         address : in std_logic_vector(15 downto 0);
+			instruction_out  : out std_logic_vector(15 downto 0));
+end entity;
+
+architecture Instruction_behave of Instruction_Memory is
+ type memory_table is array ( 255 downto 0) of std_logic_vector(15 downto 0);
+ signal i_memory: memory_table :=(others=>'0');
+ 
+ process(read_ena,adrress)
+ begin
+instruction_out <= i_memory(to_integer(unsigned(address))); 
+ end process;
+ 
+ i_memory(5)<= "1010101010101010";
+ 
+ 
+ end Instruction_behave;
+
+ 

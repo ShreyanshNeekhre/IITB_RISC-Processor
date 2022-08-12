@@ -1,0 +1,26 @@
+library ieee;
+use ieee.numeric_std.all;
+use ieee.std_logic_1164.all;
+use ieee.math_real.all;
+
+
+entity register_file is 
+port ( sel_in : in std_logic_vector(6 downto 0);
+       write_ena : in std_logic;
+		 
+
+
+);
+end register_file;
+ 
+architecture reg_file of register_file is 
+signal ena : std_logic_vector(6 downto 0) := (others=>'0');
+
+begin
+
+process(sel_in,write_ena)
+begin
+ena(to_integer(unsigned(sel_in)) <= write_ena;
+end process; 
+
+end reg_file;

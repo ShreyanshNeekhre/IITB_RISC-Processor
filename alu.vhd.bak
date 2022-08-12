@@ -1,0 +1,26 @@
+library ieee;
+use ieee.numeric_std.all;
+use ieee.std_logic_1164.all;
+use ieee.math_real.all;
+
+
+
+library work;
+use work.essential_components.all;
+use work.pipeline_registers.all;
+
+entity alu is 
+port (
+
+
+
+
+
+carry_flag : out std_logic;
+zero_flag : out std_logic);
+end alu;
+
+
+architecture alu_arch of alu is 
+begin 
+end alu_arch;

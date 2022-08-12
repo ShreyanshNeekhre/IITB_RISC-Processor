@@ -1,0 +1,38 @@
+library ieee;
+use ieee.numeric_std.all;
+use ieee.std_logic_1164.all;
+use ieee.math_real.all;
+
+
+
+library work;
+use work.essential_components.all;
+use work.pipeline_registers.all;
+
+entity write_back is 
+port( clk : in std_logic;
+      result_alu_WB : in std_logic_vector(15 downto 0);
+		 
+		 pc_WB : in std_logic_vector(15 downto 0);
+		 pc_plus_Imm_WB : in std_logic_vector(15 downto 0);
+		 
+		 write_on_reg_or_mem_WB : in std_logic_vector(1 downto 0);
+		 destination_WB : in std_logic_vector(2 downto 0);
+		 data_out1_WB: in std_logic_vector(15 downto 0);
+       data_came_from_WB : out std_logic_vector(15 downto 0)
+
+);
+end write_back;
+
+architecture wb_arch of write_back is 
+begin
+
+process(write_on_reg_or_mem_WB)begin
+if(write_on_reg_or_mem_WB="01")then
+
+
+
+
+
+end process;
+end wb_arch;
