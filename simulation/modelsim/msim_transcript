@@ -1,0 +1,701 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do processor_iitb_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/intelFPGA_lite/18.1/project files/processor_iitb/Instruction_Memory.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:33:23 on Aug 01,2022
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/18.1/project files/processor_iitb/Instruction_Memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity Instruction_Memory
+# -- Compiling architecture Instruction_behave of Instruction_Memory
+# End time: 11:33:23 on Aug 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/18.1/project files/processor_iitb/essential_components.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:33:23 on Aug 01,2022
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/18.1/project files/processor_iitb/essential_components.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling package essential_components
+# -- Compiling entity reg_1
+# -- Compiling architecture areg_1 of reg_1
+# -- Compiling entity reg
+# -- Compiling architecture areg of reg
+# -- Compiling entity sign_extend_entity
+# -- Compiling architecture se of sign_extend_entity
+# -- Compiling entity left_shift
+# -- Compiling architecture left_shift_arch of left_shift
+# End time: 11:33:23 on Aug 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/18.1/project files/processor_iitb/alu.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:33:23 on Aug 01,2022
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/18.1/project files/processor_iitb/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity alu
+# -- Compiling architecture alu_arch of alu
+# End time: 11:33:23 on Aug 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/18.1/project files/processor_iitb/register_file.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:33:23 on Aug 01,2022
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/18.1/project files/processor_iitb/register_file.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package essential_components
+# -- Compiling entity register_file
+# -- Compiling architecture reg_file of register_file
+# End time: 11:33:23 on Aug 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/18.1/project files/processor_iitb/pipeline_registers.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:33:24 on Aug 01,2022
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/18.1/project files/processor_iitb/pipeline_registers.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package essential_components
+# -- Compiling package pipeline_registers
+# -- Compiling entity IF_ID
+# -- Compiling architecture IF_ID_arch of IF_ID
+# -- Compiling entity ID_RR
+# -- Compiling architecture ID_RR_arch of ID_RR
+# -- Compiling entity RR_EX
+# -- Compiling architecture RR_EX_arch of RR_EX
+# -- Compiling entity EX_MM
+# -- Compiling architecture EX_MM_arch of EX_MM
+# -- Compiling entity MM_WB
+# -- Compiling architecture MM_WB_arch of MM_WB
+# End time: 11:33:24 on Aug 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/18.1/project files/processor_iitb/data_memory.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:33:24 on Aug 01,2022
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/18.1/project files/processor_iitb/data_memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package essential_components
+# -- Compiling entity data_memory
+# -- Compiling architecture data_arch of data_memory
+# End time: 11:33:24 on Aug 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/18.1/project files/processor_iitb/processor_iitb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:33:24 on Aug 01,2022
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/18.1/project files/processor_iitb/processor_iitb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package essential_components
+# -- Loading package pipeline_registers
+# -- Compiling entity processor_iitb
+# -- Compiling architecture pro of processor_iitb
+# End time: 11:33:24 on Aug 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/18.1/project files/processor_iitb/Instruction_decoder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:33:24 on Aug 01,2022
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/18.1/project files/processor_iitb/Instruction_decoder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package essential_components
+# -- Loading package pipeline_registers
+# -- Compiling entity Instruction_decoder
+# -- Compiling architecture Ind of Instruction_decoder
+# End time: 11:33:24 on Aug 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/18.1/project files/processor_iitb/write_back.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:33:24 on Aug 01,2022
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/18.1/project files/processor_iitb/write_back.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package essential_components
+# -- Loading package pipeline_registers
+# -- Compiling entity write_back
+# -- Compiling architecture wb_arch of write_back
+# End time: 11:33:24 on Aug 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/18.1/project files/processor_iitb/forwarding_RR_Ex.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:33:24 on Aug 01,2022
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/18.1/project files/processor_iitb/forwarding_RR_Ex.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package essential_components
+# -- Loading package pipeline_registers
+# -- Compiling entity forwarding_RR_Ex
+# -- Compiling architecture fre of forwarding_RR_Ex
+# End time: 11:33:24 on Aug 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/18.1/project files/processor_iitb/forwarding_RR_MM.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:33:24 on Aug 01,2022
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/18.1/project files/processor_iitb/forwarding_RR_MM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package essential_components
+# -- Loading package pipeline_registers
+# -- Compiling entity forwarding_RR_MM
+# -- Compiling architecture frm of forwarding_RR_MM
+# End time: 11:33:24 on Aug 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/18.1/project files/processor_iitb/forwarding_RR_WB.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:33:24 on Aug 01,2022
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/18.1/project files/processor_iitb/forwarding_RR_WB.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package essential_components
+# -- Loading package pipeline_registers
+# -- Compiling entity forwarding_RR_WB
+# -- Compiling architecture frw of forwarding_RR_WB
+# End time: 11:33:24 on Aug 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/intelFPGA_lite/18.1/project files/processor_iitb/test.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:33:24 on Aug 01,2022
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/18.1/project files/processor_iitb/test.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity test
+# -- Compiling architecture test_arch of test
+# End time: 11:33:24 on Aug 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  test
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" test 
+# Start time: 11:33:25 on Aug 01,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.test(test_arch)
+# Loading work.essential_components
+# Loading work.pipeline_registers
+# Loading work.processor_iitb(pro)
+# Loading work.instruction_memory(instruction_behave)
+# Loading work.if_id(if_id_arch)
+# Loading work.reg(areg)
+# Loading work.instruction_decoder(ind)
+# Loading work.sign_extend_entity(se)
+# Loading work.id_rr(id_rr_arch)
+# Loading work.register_file(reg_file)
+# Loading work.forwarding_rr_ex(fre)
+# Loading work.forwarding_rr_mm(frm)
+# Loading work.forwarding_rr_wb(frw)
+# Loading work.rr_ex(rr_ex_arch)
+# Loading work.left_shift(left_shift_arch)
+# Loading work.alu(alu_arch)
+# Loading work.ex_mm(ex_mm_arch)
+# Loading work.reg_1(areg_1)
+# Loading work.data_memory(data_arch)
+# Loading work.mm_wb(mm_wb_arch)
+# Loading work.write_back(wb_arch)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test/test_instance/alu_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /test/test_instance/alu_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 650 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 650 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 750 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 750 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 950 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 950 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1050 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1050 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1050 ps  Iteration: 2  Instance: /test/test_instance/alu_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1250 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1250 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1250 ps  Iteration: 1  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1350 ps  Iteration: 2  Instance: /test/test_instance/alu_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1450 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1450 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1450 ps  Iteration: 2  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1450 ps  Iteration: 3  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1550 ps  Iteration: 1  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1550 ps  Iteration: 2  Instance: /test/test_instance/alu_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1550 ps  Iteration: 3  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1750 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1750 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1750 ps  Iteration: 1  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1850 ps  Iteration: 2  Instance: /test/test_instance/alu_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1950 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1950 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2050 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2050 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2050 ps  Iteration: 1  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2050 ps  Iteration: 2  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2050 ps  Iteration: 3  Instance: /test/test_instance/Register_file_instance
+# ** Fatal: (vsim-3734) Index value 256 is out of range 255 downto 0.
+#    Time: 25550 ps  Iteration: 1  Process: /test/test_instance/instruction_memory_fetch/line__72 File: C:/intelFPGA_lite/18.1/project files/processor_iitb/Instruction_Memory.vhd
+# Fatal error in Process line__72 at C:/intelFPGA_lite/18.1/project files/processor_iitb/Instruction_Memory.vhd line 74
+# 
+# HDL call sequence:
+# Stopped at C:/intelFPGA_lite/18.1/project files/processor_iitb/Instruction_Memory.vhd 74 Process line__72
+# 
+add wave -position insertpoint  \
+sim:/test/test_instance/write_back_instance/result_alu_WB
+add wave -position insertpoint  \
+sim:/test/test_instance/Register_file_instance/data_out2
+restart
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test/test_instance/alu_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /test/test_instance/alu_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 650 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 650 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 750 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 750 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 950 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 950 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1050 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1050 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1050 ps  Iteration: 2  Instance: /test/test_instance/alu_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1250 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1250 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1250 ps  Iteration: 1  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1350 ps  Iteration: 2  Instance: /test/test_instance/alu_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1450 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1450 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1450 ps  Iteration: 2  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1450 ps  Iteration: 3  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1550 ps  Iteration: 1  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1550 ps  Iteration: 2  Instance: /test/test_instance/alu_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1550 ps  Iteration: 3  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1750 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1750 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1750 ps  Iteration: 1  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1850 ps  Iteration: 2  Instance: /test/test_instance/alu_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1950 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1950 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2050 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2050 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2050 ps  Iteration: 1  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2050 ps  Iteration: 2  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2050 ps  Iteration: 3  Instance: /test/test_instance/Register_file_instance
+add wave -position insertpoint  \
+sim:/test/test_instance/alu_instance/data_out1_EX \
+sim:/test/test_instance/alu_instance/data_out2_EX
+restart
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test/test_instance/alu_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /test/test_instance/alu_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 650 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 650 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 750 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 750 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 950 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 950 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1050 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1050 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1050 ps  Iteration: 2  Instance: /test/test_instance/alu_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1250 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1250 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1250 ps  Iteration: 1  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1350 ps  Iteration: 2  Instance: /test/test_instance/alu_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1450 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1450 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1450 ps  Iteration: 2  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1450 ps  Iteration: 3  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1550 ps  Iteration: 1  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1550 ps  Iteration: 2  Instance: /test/test_instance/alu_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1550 ps  Iteration: 3  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1750 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1750 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1750 ps  Iteration: 1  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1850 ps  Iteration: 2  Instance: /test/test_instance/alu_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1950 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1950 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2050 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2050 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2050 ps  Iteration: 1  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2050 ps  Iteration: 2  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2050 ps  Iteration: 3  Instance: /test/test_instance/Register_file_instance
+add wave -position insertpoint  \
+sim:/test/test_instance/alu_instance/result_alu \
+sim:/test/test_instance/alu_instance/operand_A \
+sim:/test/test_instance/alu_instance/operand_B
+restart
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test/test_instance/alu_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /test/test_instance/alu_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 650 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 650 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 750 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 750 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 950 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 950 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1050 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1050 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1050 ps  Iteration: 2  Instance: /test/test_instance/alu_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1250 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1250 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1250 ps  Iteration: 1  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1350 ps  Iteration: 2  Instance: /test/test_instance/alu_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1450 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1450 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1450 ps  Iteration: 2  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1450 ps  Iteration: 3  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1550 ps  Iteration: 1  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1550 ps  Iteration: 2  Instance: /test/test_instance/alu_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1550 ps  Iteration: 3  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1750 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1750 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1750 ps  Iteration: 1  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1850 ps  Iteration: 2  Instance: /test/test_instance/alu_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1950 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1950 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2050 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2050 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2050 ps  Iteration: 1  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2050 ps  Iteration: 2  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2050 ps  Iteration: 3  Instance: /test/test_instance/Register_file_instance
+add wave -position insertpoint  \
+sim:/test/test_instance/Register_file_instance/data_out2
+restart
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test/test_instance/alu_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /test/test_instance/alu_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 650 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 650 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 750 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 750 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 950 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 950 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1050 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1050 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1050 ps  Iteration: 2  Instance: /test/test_instance/alu_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1250 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1250 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1250 ps  Iteration: 1  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1350 ps  Iteration: 2  Instance: /test/test_instance/alu_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1450 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1450 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1450 ps  Iteration: 2  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1450 ps  Iteration: 3  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1550 ps  Iteration: 1  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1550 ps  Iteration: 2  Instance: /test/test_instance/alu_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1550 ps  Iteration: 3  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1750 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1750 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1750 ps  Iteration: 1  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1850 ps  Iteration: 2  Instance: /test/test_instance/alu_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1950 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1950 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2050 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2050 ps  Iteration: 1  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2050 ps  Iteration: 1  Instance: /test/test_instance/data_memory_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2050 ps  Iteration: 2  Instance: /test/test_instance/Register_file_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2050 ps  Iteration: 3  Instance: /test/test_instance/Register_file_instance
+# End time: 11:53:14 on Aug 01,2022, Elapsed time: 0:19:49
+# Errors: 2, Warnings: 210

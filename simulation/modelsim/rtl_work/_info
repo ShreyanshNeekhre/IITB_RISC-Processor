@@ -1,0 +1,955 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/18.1/project files/processor_iitb/simulation/modelsim
+Ealu
+Z1 w1659287186
+Z2 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R0
+Z6 8C:/intelFPGA_lite/18.1/project files/processor_iitb/alu.vhd
+Z7 FC:/intelFPGA_lite/18.1/project files/processor_iitb/alu.vhd
+l0
+L10
+V28=fnI<74_WjL9bNjoKBS3
+!s100 =R9^E9NS[Bg?QDaTUd4Ph2
+Z8 OV;C;10.5b;63
+31
+Z9 !s110 1659333803
+!i10b 1
+Z10 !s108 1659333803.000000
+Z11 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/project files/processor_iitb/alu.vhd|
+Z12 !s107 C:/intelFPGA_lite/18.1/project files/processor_iitb/alu.vhd|
+!i113 1
+Z13 o-93 -work work
+Z14 tExplicit 1 CvgOpt 0
+Aalu_arch
+R2
+R3
+R4
+R5
+DEx4 work 3 alu 0 22 28=fnI<74_WjL9bNjoKBS3
+l37
+L31
+V04UHL3Y=:njBC^32NFWbd0
+!s100 NiSdaBmDGlQnPfE[kE][R0
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Edata_memory
+Z15 w1659296143
+Z16 DPx4 work 20 essential_components 0 22 n:1@GZoO9CGo8gL=<2k?D0
+R2
+R3
+R4
+R5
+R0
+Z17 8C:/intelFPGA_lite/18.1/project files/processor_iitb/data_memory.vhd
+Z18 FC:/intelFPGA_lite/18.1/project files/processor_iitb/data_memory.vhd
+l0
+L9
+VaNkHiGjZAoF0I4P<B_4Qn0
+!s100 Boig3@a5Bi1k``OA@8_HY3
+R8
+31
+Z19 !s110 1659333804
+!i10b 1
+Z20 !s108 1659333804.000000
+Z21 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/project files/processor_iitb/data_memory.vhd|
+Z22 !s107 C:/intelFPGA_lite/18.1/project files/processor_iitb/data_memory.vhd|
+!i113 1
+R13
+R14
+Adata_arch
+R16
+R2
+R3
+R4
+R5
+DEx4 work 11 data_memory 0 22 aNkHiGjZAoF0I4P<B_4Qn0
+l23
+L18
+Vc^[`=4oo?S4>7j[Xn>><X2
+!s100 g?VfD:RE3]nEgjN4jYIBF3
+R8
+31
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R13
+R14
+Pessential_components
+R2
+R3
+R4
+R5
+Z23 w1659329336
+R0
+Z24 8C:/intelFPGA_lite/18.1/project files/processor_iitb/essential_components.vhd
+Z25 FC:/intelFPGA_lite/18.1/project files/processor_iitb/essential_components.vhd
+l0
+L6
+Vn:1@GZoO9CGo8gL=<2k?D0
+!s100 `XHV>?NgGU?iOCG>zM;YQ1
+R8
+31
+R9
+!i10b 1
+R10
+Z26 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/project files/processor_iitb/essential_components.vhd|
+Z27 !s107 C:/intelFPGA_lite/18.1/project files/processor_iitb/essential_components.vhd|
+!i113 1
+R13
+R14
+Eex_mm
+Z28 w1657520476
+R16
+R2
+R3
+R4
+R5
+R0
+Z29 8C:/intelFPGA_lite/18.1/project files/processor_iitb/pipeline_registers.vhd
+Z30 FC:/intelFPGA_lite/18.1/project files/processor_iitb/pipeline_registers.vhd
+l0
+L432
+VREGOUnaPF6B<RYdAdgQbc1
+!s100 0``AP8:UQ<f>OQ5>beBVn1
+R8
+31
+R19
+!i10b 1
+R20
+Z31 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/project files/processor_iitb/pipeline_registers.vhd|
+Z32 !s107 C:/intelFPGA_lite/18.1/project files/processor_iitb/pipeline_registers.vhd|
+!i113 1
+R13
+R14
+Aex_mm_arch
+R16
+R2
+R3
+R4
+R5
+DEx4 work 5 ex_mm 0 22 REGOUnaPF6B<RYdAdgQbc1
+l465
+L464
+V7<0z6;m05>FV?P1:PbbUb3
+!s100 ;IO?[4eaG04cR6fEn=Z:K3
+R8
+31
+R19
+!i10b 1
+R20
+R31
+R32
+!i113 1
+R13
+R14
+Eforwarding_rr_ex
+Z33 w1659292414
+Z34 DPx4 work 18 pipeline_registers 0 22 WIk`EK7Wjijg;0T34]:UE0
+R16
+R2
+R3
+R4
+R5
+R0
+Z35 8C:/intelFPGA_lite/18.1/project files/processor_iitb/forwarding_RR_Ex.vhd
+Z36 FC:/intelFPGA_lite/18.1/project files/processor_iitb/forwarding_RR_Ex.vhd
+l0
+L12
+V1FYf6CHh21<I>Zaj1LB^Z2
+!s100 [k55?db;jOiV5RRg_0m@d0
+R8
+31
+R19
+!i10b 1
+R20
+Z37 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/project files/processor_iitb/forwarding_RR_Ex.vhd|
+Z38 !s107 C:/intelFPGA_lite/18.1/project files/processor_iitb/forwarding_RR_Ex.vhd|
+!i113 1
+R13
+R14
+Afre
+R34
+R16
+R2
+R3
+R4
+R5
+DEx4 work 16 forwarding_rr_ex 0 22 1FYf6CHh21<I>Zaj1LB^Z2
+l24
+L21
+V5MM3aR=Ng?EKbK4>VJb>]3
+!s100 oO2YI1`RX:SDoc=V5Jb0m0
+R8
+31
+R19
+!i10b 1
+R20
+R37
+R38
+!i113 1
+R13
+R14
+Eforwarding_rr_mm
+Z39 w1659292411
+R34
+R16
+R2
+R3
+R4
+R5
+R0
+Z40 8C:/intelFPGA_lite/18.1/project files/processor_iitb/forwarding_RR_MM.vhd
+Z41 FC:/intelFPGA_lite/18.1/project files/processor_iitb/forwarding_RR_MM.vhd
+l0
+L12
+V57Ff<UF8H1@h_Wj4kO4lJ1
+!s100 f]GbR1<IBJ00KdZXk_V6`1
+R8
+31
+R19
+!i10b 1
+R20
+Z42 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/project files/processor_iitb/forwarding_RR_MM.vhd|
+Z43 !s107 C:/intelFPGA_lite/18.1/project files/processor_iitb/forwarding_RR_MM.vhd|
+!i113 1
+R13
+R14
+Afrm
+R34
+R16
+R2
+R3
+R4
+R5
+DEx4 work 16 forwarding_rr_mm 0 22 57Ff<UF8H1@h_Wj4kO4lJ1
+l24
+L21
+VPBgBBQD4QQUdA?=@i87NV1
+!s100 :ARcl7ozbb6a`L?nVXFXb3
+R8
+31
+R19
+!i10b 1
+R20
+R42
+R43
+!i113 1
+R13
+R14
+Eforwarding_rr_wb
+Z44 w1659326925
+R34
+R16
+R2
+R3
+R4
+R5
+R0
+Z45 8C:/intelFPGA_lite/18.1/project files/processor_iitb/forwarding_RR_WB.vhd
+Z46 FC:/intelFPGA_lite/18.1/project files/processor_iitb/forwarding_RR_WB.vhd
+l0
+L12
+VaQRi^fNeH<WJR>ZAfE5FQ0
+!s100 B`^T25olf8z5i0VPGW;9F0
+R8
+31
+R19
+!i10b 1
+R20
+Z47 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/project files/processor_iitb/forwarding_RR_WB.vhd|
+Z48 !s107 C:/intelFPGA_lite/18.1/project files/processor_iitb/forwarding_RR_WB.vhd|
+!i113 1
+R13
+R14
+Afrw
+R34
+R16
+R2
+R3
+R4
+R5
+DEx4 work 16 forwarding_rr_wb 0 22 aQRi^fNeH<WJR>ZAfE5FQ0
+l24
+L21
+VU^hSOXDjT`eB10HHjKNXg1
+!s100 J93j9T3JOmlc4k5l7k_Yb1
+R8
+31
+R19
+!i10b 1
+R20
+R47
+R48
+!i113 1
+R13
+R14
+Eid_rr
+R28
+R16
+R2
+R3
+R4
+R5
+R0
+R29
+R30
+l0
+L258
+VaYh@jK`8Ah7DVGWCe<n<03
+!s100 o2XG6C2_gmOkQnP[:c;E53
+R8
+31
+R19
+!i10b 1
+R20
+R31
+R32
+!i113 1
+R13
+R14
+Aid_rr_arch
+R16
+R2
+R3
+R4
+R5
+DEx4 work 5 id_rr 0 22 aYh@jK`8Ah7DVGWCe<n<03
+l297
+L296
+VzQLk5D4?__WNzda2G_HO73
+!s100 F=NE8FVYoZe1?8DiYXJ`K2
+R8
+31
+R19
+!i10b 1
+R20
+R31
+R32
+!i113 1
+R13
+R14
+Eif_id
+R28
+R16
+R2
+R3
+R4
+R5
+R0
+R29
+R30
+l0
+L214
+Vom>MZ8elKcY?cM111HfTi0
+!s100 X2o2NX38HDjaQ17;T7i2K1
+R8
+31
+R19
+!i10b 1
+R20
+R31
+R32
+!i113 1
+R13
+R14
+Aif_id_arch
+R16
+R2
+R3
+R4
+R5
+DEx4 work 5 if_id 0 22 om>MZ8elKcY?cM111HfTi0
+l231
+L227
+VOd[TGh2E>Am[WcMf8iSbR2
+!s100 ?C_`]VS;L2]bXHGC74:MO2
+R8
+31
+R19
+!i10b 1
+R20
+R31
+R32
+!i113 1
+R13
+R14
+Einstruction_decoder
+Z49 w1659203426
+R34
+R16
+R2
+R3
+R4
+R5
+R0
+Z50 8C:/intelFPGA_lite/18.1/project files/processor_iitb/Instruction_decoder.vhd
+Z51 FC:/intelFPGA_lite/18.1/project files/processor_iitb/Instruction_decoder.vhd
+l0
+L13
+VWBL>=5DYC[R]8MI?@U@OO3
+!s100 5eUl3QN]>f[<bRD5l[[;L2
+R8
+31
+R19
+!i10b 1
+R20
+Z52 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/project files/processor_iitb/Instruction_decoder.vhd|
+Z53 !s107 C:/intelFPGA_lite/18.1/project files/processor_iitb/Instruction_decoder.vhd|
+!i113 1
+R13
+R14
+Aind
+R34
+R16
+R2
+R3
+R4
+R5
+DEx4 work 19 instruction_decoder 0 22 WBL>=5DYC[R]8MI?@U@OO3
+l32
+L29
+VjcUd=z?POneBRE=`>gJBV1
+!s100 Q_U`i7a4Q48k]ngDN^dFT3
+R8
+31
+R19
+!i10b 1
+R20
+R52
+R53
+!i113 1
+R13
+R14
+Einstruction_memory
+Z54 w1659333771
+R2
+R3
+R4
+R5
+R0
+Z55 8C:/intelFPGA_lite/18.1/project files/processor_iitb/Instruction_Memory.vhd
+Z56 FC:/intelFPGA_lite/18.1/project files/processor_iitb/Instruction_Memory.vhd
+l0
+L6
+V>@HD;dfe_PXa^fKzD`55d3
+!s100 DBi5k`5MJLB]`2<d3cNLo3
+R8
+31
+R9
+!i10b 1
+R10
+Z57 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/project files/processor_iitb/Instruction_Memory.vhd|
+Z58 !s107 C:/intelFPGA_lite/18.1/project files/processor_iitb/Instruction_Memory.vhd|
+!i113 1
+R13
+R14
+Ainstruction_behave
+R2
+R3
+R4
+R5
+DEx4 work 18 instruction_memory 0 22 >@HD;dfe_PXa^fKzD`55d3
+l71
+L12
+VM^`@4?mSkBG]GeBM]Qi_E1
+!s100 T`fG^<eVO4@n89X=I=3I?0
+R8
+31
+R9
+!i10b 1
+R10
+R57
+R58
+!i113 1
+R13
+R14
+Eleft_shift
+R23
+R2
+R3
+R4
+R5
+R0
+R24
+R25
+l0
+L282
+VHMAMeQ@F:_E=4UYk:D]:R0
+!s100 zIb4n`MO7FVm1ON=YMmRM2
+R8
+31
+R9
+!i10b 1
+R10
+R26
+R27
+!i113 1
+R13
+R14
+Aleft_shift_arch
+R2
+R3
+R4
+R5
+DEx4 work 10 left_shift 0 22 HMAMeQ@F:_E=4UYk:D]:R0
+l292
+L291
+V[3Tbme0RKi:hTU43B6GaP0
+!s100 8Cz782=h>@MmjIofL^FVO3
+R8
+31
+R9
+!i10b 1
+R10
+R26
+R27
+!i113 1
+R13
+R14
+Emm_wb
+R28
+R16
+R2
+R3
+R4
+R5
+R0
+R29
+R30
+l0
+L489
+VF;54Y`Rc17LW@>5zFE7:N2
+!s100 SeVIJ81K;__SY2Q1?e69Z2
+R8
+31
+R19
+!i10b 1
+R20
+R31
+R32
+!i113 1
+R13
+R14
+Amm_wb_arch
+R16
+R2
+R3
+R4
+R5
+DEx4 work 5 mm_wb 0 22 F;54Y`Rc17LW@>5zFE7:N2
+l525
+L524
+V6SE2]cbRHAEY>ZfC:D11R3
+!s100 18`bX2eUN0TEb88mN]V>h1
+R8
+31
+R19
+!i10b 1
+R20
+R31
+R32
+!i113 1
+R13
+R14
+Ppipeline_registers
+R16
+R2
+R3
+R4
+R5
+R28
+R0
+R29
+R30
+l0
+L12
+VWIk`EK7Wjijg;0T34]:UE0
+!s100 V`dnOVo3CdnB<CJe[LNET1
+R8
+31
+R19
+!i10b 1
+R20
+R31
+R32
+!i113 1
+R13
+R14
+Eprocessor_iitb
+Z59 w1659330722
+R34
+R16
+R2
+R3
+R4
+R5
+R0
+Z60 8C:/intelFPGA_lite/18.1/project files/processor_iitb/processor_iitb.vhd
+Z61 FC:/intelFPGA_lite/18.1/project files/processor_iitb/processor_iitb.vhd
+l0
+L12
+VUH:K>ojTjdelZ16oD5Ina2
+!s100 kbM>^JaC=EDnzLTDIl[OS1
+R8
+31
+R19
+!i10b 1
+R20
+Z62 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/project files/processor_iitb/processor_iitb.vhd|
+Z63 !s107 C:/intelFPGA_lite/18.1/project files/processor_iitb/processor_iitb.vhd|
+!i113 1
+R13
+R14
+Apro
+R34
+R16
+R2
+R3
+R4
+R5
+DEx4 work 14 processor_iitb 0 22 UH:K>ojTjdelZ16oD5Ina2
+l155
+L29
+Vo@3V2nUL5QE:SbS:REi<b1
+!s100 HP1j0cO;K`ZW1=A;j8BHZ1
+R8
+31
+R19
+!i10b 1
+R20
+R62
+R63
+!i113 1
+R13
+R14
+Ereg
+R23
+R2
+R3
+R4
+R5
+R0
+R24
+R25
+l0
+L208
+V^][GkB2ck=R7bea8l]G5?2
+!s100 YkB]djAR9M1z5LUBHzEf?0
+R8
+31
+R9
+!i10b 1
+R10
+R26
+R27
+!i113 1
+R13
+R14
+Aareg
+R2
+R3
+R4
+R5
+DEx4 work 3 reg 0 22 ^][GkB2ck=R7bea8l]G5?2
+l216
+L215
+V7?R_W=anB;Jj8I:1lzl=02
+!s100 XZ`GU1eZBHnR<fZzFH;?=0
+R8
+31
+R9
+!i10b 1
+R10
+R26
+R27
+!i113 1
+R13
+R14
+Ereg_1
+R23
+R2
+R3
+R4
+R5
+R0
+R24
+R25
+l0
+L178
+VTIe<N9:?^AQa;hZHA:FfU2
+!s100 6Sc_284j?ee9?QOL5FXKC3
+R8
+31
+R9
+!i10b 1
+R10
+R26
+R27
+!i113 1
+R13
+R14
+Aareg_1
+R2
+R3
+R4
+R5
+DEx4 work 5 reg_1 0 22 TIe<N9:?^AQa;hZHA:FfU2
+l186
+L185
+VMhMGFTdJCJoPgIo=f=DhN1
+!s100 @MJLo7e4MIlfbik=:<Q5c3
+R8
+31
+R9
+!i10b 1
+R10
+R26
+R27
+!i113 1
+R13
+R14
+Eregister_file
+Z64 w1657095844
+R16
+R2
+R3
+R4
+R5
+R0
+Z65 8C:/intelFPGA_lite/18.1/project files/processor_iitb/register_file.vhd
+Z66 FC:/intelFPGA_lite/18.1/project files/processor_iitb/register_file.vhd
+l0
+L9
+Vh:SCB69I1m]BSQYJ<m5L12
+!s100 PQYFFfA7<j0m[j1^943F:1
+R8
+31
+R9
+!i10b 1
+R10
+Z67 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/project files/processor_iitb/register_file.vhd|
+Z68 !s107 C:/intelFPGA_lite/18.1/project files/processor_iitb/register_file.vhd|
+!i113 1
+R13
+R14
+Areg_file
+R16
+R2
+R3
+R4
+R5
+DEx4 work 13 register_file 0 22 h:SCB69I1m]BSQYJ<m5L12
+l40
+L32
+V^IROc[[N8NBcI^l>CWWSd1
+!s100 >zGcDLm0]I8^G_nnSGGBA0
+R8
+31
+R9
+!i10b 1
+R10
+R67
+R68
+!i113 1
+R13
+R14
+Err_ex
+R28
+R16
+R2
+R3
+R4
+R5
+R0
+R29
+R30
+l0
+L328
+V[SFR[^]MeT3kG50RnN4SS0
+!s100 _ad3F7R0ze:[@Fm0H;kA61
+R8
+31
+R19
+!i10b 1
+R20
+R31
+R32
+!i113 1
+R13
+R14
+Arr_ex_arch
+R16
+R2
+R3
+R4
+R5
+DEx4 work 5 rr_ex 0 22 [SFR[^]MeT3kG50RnN4SS0
+l385
+L384
+V<JdzH;[T`>kScknP@nD532
+!s100 CYXbHBjSaBT2Jk]bmn0KY3
+R8
+31
+R19
+!i10b 1
+R20
+R31
+R32
+!i113 1
+R13
+R14
+Esign_extend_entity
+R23
+R2
+R3
+R4
+R5
+R0
+R24
+R25
+l0
+L239
+VQ1nzli4h[TIh]^9WfSX@Z3
+!s100 B3hfMTSIP9if;IzFXOh1i1
+R8
+31
+R9
+!i10b 1
+R10
+R26
+R27
+!i113 1
+R13
+R14
+Ase
+R2
+R3
+R4
+R5
+DEx4 work 18 sign_extend_entity 0 22 Q1nzli4h[TIh]^9WfSX@Z3
+l250
+L249
+VCSnXIzocgGTkncN;aE=_C2
+!s100 O@D_`9NRHLYHhMAa[TG432
+R8
+31
+R9
+!i10b 1
+R10
+R26
+R27
+!i113 1
+R13
+R14
+Etest
+Z69 w1657275385
+R2
+R3
+R4
+R5
+R0
+Z70 8C:/intelFPGA_lite/18.1/project files/processor_iitb/test.vhd
+Z71 FC:/intelFPGA_lite/18.1/project files/processor_iitb/test.vhd
+l0
+L6
+VCbWJ9HTmoNY2LVIjn<2?j3
+!s100 ^H42TKl@akoDGX3n6PaBL2
+R8
+31
+R19
+!i10b 1
+R20
+Z72 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/project files/processor_iitb/test.vhd|
+Z73 !s107 C:/intelFPGA_lite/18.1/project files/processor_iitb/test.vhd|
+!i113 1
+R13
+R14
+Atest_arch
+R2
+R3
+R4
+R5
+DEx4 work 4 test 0 22 CbWJ9HTmoNY2LVIjn<2?j3
+l41
+L11
+VLHcKIidf1cPhjK0LQJZGg3
+!s100 ?CkIAFY6[TY494IFQ]@0T3
+R8
+31
+R19
+!i10b 1
+R20
+R72
+R73
+!i113 1
+R13
+R14
+Ewrite_back
+Z74 w1659330535
+R34
+R16
+R2
+R3
+R4
+R5
+R0
+Z75 8C:/intelFPGA_lite/18.1/project files/processor_iitb/write_back.vhd
+Z76 FC:/intelFPGA_lite/18.1/project files/processor_iitb/write_back.vhd
+l0
+L12
+VFcBc:Lz`LYQ`AFl0ZPV;;1
+!s100 m]L<E6hhVXEcZKj?>?L^Y3
+R8
+31
+R19
+!i10b 1
+R20
+Z77 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/project files/processor_iitb/write_back.vhd|
+Z78 !s107 C:/intelFPGA_lite/18.1/project files/processor_iitb/write_back.vhd|
+!i113 1
+R13
+R14
+Awb_arch
+R34
+R16
+R2
+R3
+R4
+R5
+DEx4 work 10 write_back 0 22 FcBc:Lz`LYQ`AFl0ZPV;;1
+l42
+L38
+VD:c6Zk7;0PjSDzKO<=gA01
+!s100 HQCY=E9[PUW_Ib]<ibZF_0
+R8
+31
+R19
+!i10b 1
+R20
+R77
+R78
+!i113 1
+R13
+R14

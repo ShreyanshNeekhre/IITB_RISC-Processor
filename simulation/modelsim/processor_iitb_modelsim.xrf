@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/intelFPGA_lite/18.1/project files/processor_iitb/processor_iitb.vhd
+source_file = 1, C:/intelFPGA_lite/18.1/project files/processor_iitb/Instruction_Memory.vhd
+source_file = 1, C:/intelFPGA_lite/18.1/project files/processor_iitb/essential_components.vhd
+source_file = 1, C:/intelFPGA_lite/18.1/project files/processor_iitb/register_file.vhd
+source_file = 1, C:/intelFPGA_lite/18.1/project files/processor_iitb/pipeline_registers.vhd
+source_file = 1, C:/intelFPGA_lite/18.1/project files/processor_iitb/Instruction_decoder.vhd
+source_file = 1, C:/intelFPGA_lite/18.1/project files/processor_iitb/alu.vhd
+source_file = 1, C:/intelFPGA_lite/18.1/project files/processor_iitb/data_memory.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/intelFPGA_lite/18.1/project files/processor_iitb/db/processor_iitb.cbx.xml
+design_name = processor_iitb
+instance = comp, \clk~input\, clk~input, processor_iitb, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, processor_iitb, 1
